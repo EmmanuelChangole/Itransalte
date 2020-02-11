@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/cv"
+    android:layout_centerInParent="true"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    app:cardCornerRadius="6dp"
+    android:elevation="3dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <!--text view login and view design-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp">
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:background="@color/colorGreen"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:textColor="@color/colorYellow"
+                android:text="@string/tvLogin"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+
+
+                />
+
+
+
+        </RelativeLayout>
+        <!--edit text email design-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorCustomGrey"
+                >
+                <EditText
+                    android:id="@+id/edEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edEmail"
+                    android:textSize="13sp"
+                    android:textCursorDrawable="@drawable/bg_input_cursor"
+                    android:background="@drawable/bg_edit_selector"
+                    android:paddingBottom="2dp"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        </LinearLayout>
+           <!--Edit text password-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginEnd="30dp"
+
+            >
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorCustomGrey"
+                >
+                <EditText
+                    android:id="@+id/edPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/edPassword"
+                    android:textSize="13sp"
+                    android:textCursorDrawable="@drawable/bg_input_cursor"
+                    android:background="@drawable/bg_edit_selector"
+                    android:paddingBottom="2dp"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+
+            >
+            <Button
+                android:id="@+id/butLogin"
+                android:onClick="login"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:textColor="@color/colorCustomGrey"
+                android:background="@drawable/bg_but_shape"
+                android:text="@string/butLogin"
+                android:stateListAnimator="@drawable/state_list_animator_z"
+
+
+
+
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:text="@string/forgot_your_password"
+            android:textColor="#9a9a9a"
+            android:textSize="12sp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/cv"
+        android:layout_alignEnd="@id/cv"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="-15dp"
+        android:src="@drawable/ic_signup"
+        android:transitionName="loginFab"
+        app:backgroundTint="@color/colorGreen"
+        app:fabSize="normal"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginRight="-40dp"
+        android:layout_alignRight="@id/cv"
+        android:onClick="createAccount"
+        />
+
+
+
+
+
+
+</RelativeLayout>

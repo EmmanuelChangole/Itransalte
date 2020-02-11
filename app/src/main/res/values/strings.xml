@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Itransalte</string>
+    <string name="tvLogin">LOGIN</string>
+    <string name="edEmail">Email</string>
+    <string name="edPassword">Password</string>
+    <string name="butLogin">Login</string>
+    <string name="forgot_your_password">Forgotten password</string>
+    <string name="SignUp">Create account</string>
+    <string name="edConPass">Confrim Password</string>
+    <string name="register">Register</string>
+    <string name="error_email">Enter a valid email</string>
+    <string name="error_password">Enter passsword with six minimum character</string>
+    <string name="error_confirm_password">The Password does not match</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "870365761135",
+    "firebase_url": "https://itransalte-985cd.firebaseio.com",
+    "project_id": "itransalte-985cd",
+    "storage_bucket": "itransalte-985cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870365761135:android:ddb0a2162df2b147adc79a",
+        "android_client_info": {
+          "package_name": "com.translateit.itransalte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870365761135-i7l195qnuh5r1qoql8h56fjjs2aqrj72.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.translateit.itransalte",
+            "certificate_hash": "5d61b66f74a366528e3b7f2c7f60cbf3bec301dc"
+          }
+        },
+        {
+          "client_id": "870365761135-bh1n3hqh0oglg30k6d9g8h1khr878nk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrsc1PjuLXZS4Szuoe8tqyvE5KqqX7IVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870365761135-bh1n3hqh0oglg30k6d9g8h1khr878nk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
